@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E19CF6122313ABA00A0C6E8 /* Cat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E19CF6022313ABA00A0C6E8 /* Cat.xcassets */; };
+		5E19CF6322315D3100A0C6E8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19CF6222315D3100A0C6E8 /* UIColor+Extension.swift */; };
+		D622A2FD2230C765007F98F4 /* PullToPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622A2FC2230C765007F98F4 /* PullToPopAnimator.swift */; };
+		D622A3032230E6BF007F98F4 /* PushTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622A3022230E6BF007F98F4 /* PushTransitioning.swift */; };
+		D622A3052230E6F1007F98F4 /* PopTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622A3042230E6F1007F98F4 /* PopTransitioning.swift */; };
+		D622A3072230E844007F98F4 /* PullToPopAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622A3062230E844007F98F4 /* PullToPopAnimatable.swift */; };
+		D65BF29C22325204008D9C0D /* VisibleGestureWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF29B22325204008D9C0D /* VisibleGestureWindow.swift */; };
+		D6839D022230FF1700E72658 /* CAAnimation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6839D012230FF1700E72658 /* CAAnimation+Extension.swift */; };
+		D6839D042230FF5E00E72658 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6839D032230FF5E00E72658 /* CGRect+Extension.swift */; };
+		D694E43C222F8EED004A2C4F /* GalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694E43B222F8EED004A2C4F /* GalleryViewCell.swift */; };
+		D69F96872228FB2D008456F5 /* AnimatableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F96862228FB2D008456F5 /* AnimatableNavigationController.swift */; };
+		D69F968B2228FC1E008456F5 /* PullToPopTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F968A2228FC1E008456F5 /* PullToPopTransitioning.swift */; };
+		D6DF256C222DFC28004ADFA1 /* PushPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DF256B222DFC28004ADFA1 /* PushPopAnimator.swift */; };
+		D6DF256E222DFC57004ADFA1 /* PushPopAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DF256D222DFC57004ADFA1 /* PushPopAnimatable.swift */; };
+		D6DF2570222DFC83004ADFA1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DF256F222DFC83004ADFA1 /* UIView+Extension.swift */; };
+		D6E98A062226343E007777B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E98A052226343E007777B7 /* AppDelegate.swift */; };
+		D6E98A082226343E007777B7 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E98A072226343E007777B7 /* GalleryViewController.swift */; };
+		D6E98A0D22263440007777B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E98A0C22263440007777B7 /* Assets.xcassets */; };
+		D6E98A1022263440007777B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E98A0E22263440007777B7 /* LaunchScreen.storyboard */; };
+		D6E98A1822264099007777B7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E98A1722264099007777B7 /* DetailViewController.swift */; };
+		D6E98A1A222642C1007777B7 /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E98A19222642C1007777B7 /* DetailViewCell.swift */; };
+		D6E98A1C22265264007777B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E98A1B22265264007777B7 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E19CF6022313ABA00A0C6E8 /* Cat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cat.xcassets; sourceTree = "<group>"; };
+		5E19CF6222315D3100A0C6E8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D622A2FC2230C765007F98F4 /* PullToPopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToPopAnimator.swift; sourceTree = "<group>"; };
+		D622A3022230E6BF007F98F4 /* PushTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransitioning.swift; sourceTree = "<group>"; };
+		D622A3042230E6F1007F98F4 /* PopTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTransitioning.swift; sourceTree = "<group>"; };
+		D622A3062230E844007F98F4 /* PullToPopAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToPopAnimatable.swift; sourceTree = "<group>"; };
+		D65BF29B22325204008D9C0D /* VisibleGestureWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibleGestureWindow.swift; sourceTree = "<group>"; };
+		D6839D012230FF1700E72658 /* CAAnimation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAAnimation+Extension.swift"; sourceTree = "<group>"; };
+		D6839D032230FF5E00E72658 /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		D694E43B222F8EED004A2C4F /* GalleryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewCell.swift; sourceTree = "<group>"; };
+		D69F96862228FB2D008456F5 /* AnimatableNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableNavigationController.swift; sourceTree = "<group>"; };
+		D69F968A2228FC1E008456F5 /* PullToPopTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToPopTransitioning.swift; sourceTree = "<group>"; };
+		D6DF256B222DFC28004ADFA1 /* PushPopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPopAnimator.swift; sourceTree = "<group>"; };
+		D6DF256D222DFC57004ADFA1 /* PushPopAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPopAnimatable.swift; sourceTree = "<group>"; };
+		D6DF256F222DFC83004ADFA1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D6E98A022226343E007777B7 /* PinterestLikePullToPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestLikePullToPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E98A052226343E007777B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6E98A072226343E007777B7 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		D6E98A0C22263440007777B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E98A0F22263440007777B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6E98A1122263440007777B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E98A1722264099007777B7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D6E98A19222642C1007777B7 /* DetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
+		D6E98A1B22265264007777B7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E989FF2226343E007777B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D622A2FE2230E5B3007F98F4 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D6E98A072226343E007777B7 /* GalleryViewController.swift */,
+				D694E43B222F8EED004A2C4F /* GalleryViewCell.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		D622A2FF2230E5F8007F98F4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D6E98A1B22265264007777B7 /* Extensions.swift */,
+				5E19CF6222315D3100A0C6E8 /* UIColor+Extension.swift */,
+				D6DF256F222DFC83004ADFA1 /* UIView+Extension.swift */,
+				D6839D012230FF1700E72658 /* CAAnimation+Extension.swift */,
+				D6839D032230FF5E00E72658 /* CGRect+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D622A3002230E637007F98F4 /* PushPopAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D6DF256D222DFC57004ADFA1 /* PushPopAnimatable.swift */,
+				D6DF256B222DFC28004ADFA1 /* PushPopAnimator.swift */,
+				D622A3022230E6BF007F98F4 /* PushTransitioning.swift */,
+				D622A3042230E6F1007F98F4 /* PopTransitioning.swift */,
+			);
+			path = PushPopAnimator;
+			sourceTree = "<group>";
+		};
+		D622A3012230E659007F98F4 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D6E98A1722264099007777B7 /* DetailViewController.swift */,
+				D6E98A19222642C1007777B7 /* DetailViewCell.swift */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		D622A3082230E981007F98F4 /* PullToPopAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D622A3062230E844007F98F4 /* PullToPopAnimatable.swift */,
+				D622A2FC2230C765007F98F4 /* PullToPopAnimator.swift */,
+				D69F968A2228FC1E008456F5 /* PullToPopTransitioning.swift */,
+			);
+			path = PullToPopAnimator;
+			sourceTree = "<group>";
+		};
+		D6B1A92F223236810048BCCE /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				D65BF29B22325204008D9C0D /* VisibleGestureWindow.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		D6E989F92226343E007777B7 = {
+			isa = PBXGroup;
+			children = (
+				D6E98A042226343E007777B7 /* PinterestLikePullToPop */,
+				D6E98A032226343E007777B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E98A032226343E007777B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E98A022226343E007777B7 /* PinterestLikePullToPop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E98A042226343E007777B7 /* PinterestLikePullToPop */ = {
+			isa = PBXGroup;
+			children = (
+				D6E98A052226343E007777B7 /* AppDelegate.swift */,
+				D69F96862228FB2D008456F5 /* AnimatableNavigationController.swift */,
+				D622A2FE2230E5B3007F98F4 /* FirstScreen */,
+				D622A3012230E659007F98F4 /* SecondScreen */,
+				D622A3002230E637007F98F4 /* PushPopAnimator */,
+				D622A3082230E981007F98F4 /* PullToPopAnimator */,
+				D622A2FF2230E5F8007F98F4 /* Extension */,
+				D6B1A92F223236810048BCCE /* Debug */,
+				D6E98A0C22263440007777B7 /* Assets.xcassets */,
+				D6E98A0E22263440007777B7 /* LaunchScreen.storyboard */,
+				D6E98A1122263440007777B7 /* Info.plist */,
+				5E19CF6022313ABA00A0C6E8 /* Cat.xcassets */,
+			);
+			path = PinterestLikePullToPop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E98A012226343E007777B7 /* PinterestLikePullToPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E98A1422263440007777B7 /* Build configuration list for PBXNativeTarget "PinterestLikePullToPop" */;
+			buildPhases = (
+				D6E989FE2226343E007777B7 /* Sources */,
+				D6E989FF2226343E007777B7 /* Frameworks */,
+				D6E98A002226343E007777B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinterestLikePullToPop;
+			productName = PinterestLikePullToPop;
+			productReference = D6E98A022226343E007777B7 /* PinterestLikePullToPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E989FA2226343E007777B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shingo Fukuyama";
+				TargetAttributes = {
+					D6E98A012226343E007777B7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D6E989FD2226343E007777B7 /* Build configuration list for PBXProject "PinterestLikePullToPop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E989F92226343E007777B7;
+			productRefGroup = D6E98A032226343E007777B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E98A012226343E007777B7 /* PinterestLikePullToPop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E98A002226343E007777B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E98A1022263440007777B7 /* LaunchScreen.storyboard in Resources */,
+				5E19CF6122313ABA00A0C6E8 /* Cat.xcassets in Resources */,
+				D6E98A0D22263440007777B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E989FE2226343E007777B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D694E43C222F8EED004A2C4F /* GalleryViewCell.swift in Sources */,
+				D622A2FD2230C765007F98F4 /* PullToPopAnimator.swift in Sources */,
+				D6839D022230FF1700E72658 /* CAAnimation+Extension.swift in Sources */,
+				5E19CF6322315D3100A0C6E8 /* UIColor+Extension.swift in Sources */,
+				D65BF29C22325204008D9C0D /* VisibleGestureWindow.swift in Sources */,
+				D6DF2570222DFC83004ADFA1 /* UIView+Extension.swift in Sources */,
+				D6E98A1C22265264007777B7 /* Extensions.swift in Sources */,
+				D69F968B2228FC1E008456F5 /* PullToPopTransitioning.swift in Sources */,
+				D6E98A082226343E007777B7 /* GalleryViewController.swift in Sources */,
+				D6E98A1A222642C1007777B7 /* DetailViewCell.swift in Sources */,
+				D622A3072230E844007F98F4 /* PullToPopAnimatable.swift in Sources */,
+				D69F96872228FB2D008456F5 /* AnimatableNavigationController.swift in Sources */,
+				D6DF256C222DFC28004ADFA1 /* PushPopAnimator.swift in Sources */,
+				D622A3052230E6F1007F98F4 /* PopTransitioning.swift in Sources */,
+				D6DF256E222DFC57004ADFA1 /* PushPopAnimatable.swift in Sources */,
+				D6E98A062226343E007777B7 /* AppDelegate.swift in Sources */,
+				D6E98A1822264099007777B7 /* DetailViewController.swift in Sources */,
+				D6839D042230FF5E00E72658 /* CGRect+Extension.swift in Sources */,
+				D622A3032230E6BF007F98F4 /* PushTransitioning.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6E98A0E22263440007777B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E98A0F22263440007777B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E98A1222263440007777B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6E98A1322263440007777B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E98A1522263440007777B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				INFOPLIST_FILE = PinterestLikePullToPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.app.test.PinterestLikePullToPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E98A1622263440007777B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3SN7K5RJR;
+				INFOPLIST_FILE = PinterestLikePullToPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fukuyama.app.test.PinterestLikePullToPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E989FD2226343E007777B7 /* Build configuration list for PBXProject "PinterestLikePullToPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E98A1222263440007777B7 /* Debug */,
+				D6E98A1322263440007777B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E98A1422263440007777B7 /* Build configuration list for PBXNativeTarget "PinterestLikePullToPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E98A1522263440007777B7 /* Debug */,
+				D6E98A1622263440007777B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E989FA2226343E007777B7 /* Project object */;
+}
